@@ -1,0 +1,495 @@
+/* Mobile Devices (mobile phones) */
+@media screen and (min-width:400px) and (max-width: 576px) {
+    html {
+        font-size: 14px;
+
+    }
+
+    body {
+        margin: 0;
+        font-family: sans-serif;
+        background-color: antiquewhite;
+    }
+
+
+    /* styling the nav-bar */
+    .nav-bar {
+        width: 300px;
+        padding: 10px;
+    }
+
+    .nav-bar>img {
+        width: 70px;
+        height: 20px;
+    }
+
+    /* .nav-bar>.left-side {
+        float: right;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .left-side>.page-number {
+        border: 1px solid brown;
+        display: flex;
+        flex-grow: 2;
+        padding: 2px;
+        font-size: 1rem;
+        font-weight: 200;
+
+    } */
+
+    /* styling the section below the nav-bar */
+    div.banner {
+        display: flex;
+        object-fit: cover;
+
+    }
+
+    .banner>img {
+        width: 350px;
+        height: 100px;
+        object-fit: cover;
+        text-align: center;
+        padding-left: 25px;
+
+
+    }
+
+    /* styling the .about-section */
+    .about {
+        display: flex;
+        margin: 0 auto;
+        flex-direction: column;
+    }
+
+    .about>h2 {
+        text-align: center;
+        margin-bottom: 0;
+    }
+
+    .container {
+        padding: 10px;
+    }
+
+    p.short-summary {
+        margin: 0;
+        text-align: justify;
+        padding: 0 10px;
+        width: 350px;
+    }
+
+    li a {
+        text-decoration: none;
+    }
+
+    .container>img {
+        width: 250px;
+        height: 120px;
+        object-fit: cover;
+        padding: 7px;
+        margin-left: 23px;
+        margin-right: 20px;
+    }
+
+    /* styling Job header text and job opp section */
+    .header {
+        text-align: center;
+
+    }
+
+    .header>h3 {
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+
+    .job-opp {
+        display: none;
+
+    }
+
+    div.mobile-version-job-opp {
+        display: flex;
+        flex-direction: column;
+        padding: 0 15px 0 15px;
+        width: 300px;
+
+    }
+
+    .first- {
+        border: 2px solid black;
+        margin: 0 0 10px 0;
+        max-width: 300px;
+    }
+
+    .first->h3 {
+        margin: 0;
+        padding-left: 25px;
+        padding-top: 10px;
+    }
+
+    .first->ul {
+        margin-top: 0;
+        padding-top: 9px;
+    }
+
+    .second- {
+        border: 2px solid black;
+        margin: 0 0 10px 0;
+        max-width: 300px;
+
+    }
+
+    .second->h3 {
+        margin: 0;
+        padding-left: 25px;
+        padding-top: 10px;
+    }
+
+    .second->ul {
+        margin-top: 0;
+        padding-top: 9px;
+    }
+
+    .third- {
+        border: 2px solid black;
+        max-width: 300px;
+    }
+
+    .third->h3 {
+        margin: 0;
+        padding-left: 25px;
+        padding-top: 10px;
+    }
+
+    .third->ul {
+        margin-top: 0;
+        padding-top: 9px;
+    }
+
+    form>h3 {
+        margin-top: 0;
+        padding-top: 17px;
+        margin-bottom: 10px;
+        text-align: center;
+        width: 300px;
+    }
+
+    label {
+        font-size: 14px;
+        font-weight: 300;
+    }
+
+    div.Application-form {
+        display: flex;
+        flex-direction: column;
+        padding: 0 15px 0 15px;
+        width: 300px;
+    }
+
+    .firstname-box,
+    .email-box,
+    .Application-box,
+    .upload-resume {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .first-name,
+    .email,
+    .position-applied,
+    .file-type {
+        width: 150px;
+        border-radius: 5px;
+        padding-top: 7px;
+        border: 0;
+
+    }
+
+    div.email-box,
+    div.Application-box,
+    button {
+        margin-top: 7px;
+    }
+
+    .cover-letter {
+        display: flex;
+        flex-direction: column;
+        margin-top: 7px;
+        margin-bottom: 4px;
+
+    }
+
+    #text-area {
+        width: 200px;
+        height: 100px;
+    }
+
+    /* ::placeholder {
+        padding: 7px;
+    } */
+
+
+    button {
+        width: 100px;
+        height: 20px;
+        border: none;
+        background-color: rgb(239, 173, 91);
+        font-weight: 300;
+        color: white;
+
+    }
+
+    .footer {
+
+        margin-top: 10px;
+    }
+
+    .footer>ul {
+        display: flex;
+
+        list-style: none;
+        padding-left: 20px;
+        text-align: left;
+        justify-content: space-evenly;
+        margin: 0;
+    }
+
+    .copyright {
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 13px;
+        justify-content: space-between;
+        color: rgb(77, 74, 74);
+
+    }
+
+
+
+}
+
+/* body {
+    margin: 0;
+    font-family: sans-serif;
+}
+cc
+
+    /* Medium Devices (Laptops) */
+@media screen and (min-width:578px) {
+    html {
+        font-size: 16px;
+
+    }
+
+    body {
+        margin: 0;
+        font-family: sans-serif;
+
+    }
+
+    /* styling the nav-bar */
+
+    .nav-bar {
+        width: 200px;
+    }
+
+    .nav-bar>img {
+        width: 80%;
+        padding: 0 10px;
+    }
+
+    .banner>img {
+        width: 900px;
+        height: 400px;
+        object-fit: cover;
+        padding: 7px 13px;
+        display: flex;
+        margin: 0 auto;
+
+    }
+
+    .about>h2 {
+        font-family: sans-serif;
+        font-size: 30px;
+        color: rgb(198, 82, 82);
+    }
+
+    .about>.container {
+        display: flex;
+        width: 800px;
+        margin: 0 auto;
+
+    }
+
+    .container>img {
+        width: 400px;
+        border-radius: 30px;
+        display: flex;
+        padding: 0 20px;
+    }
+
+    .sub-container {
+        display: block;
+    }
+
+    p.short-summary {
+        margin: 0;
+        display: block;
+        width: 400px;
+        padding: 0px 10px;
+        text-align: justify;
+    }
+
+    ol a {
+        text-decoration: none;
+    }
+
+    .main-body>.about {
+
+        text-align: center;
+    }
+
+    div.header {
+        display: flex;
+        margin: 0 auto;
+    }
+
+    .header>h3 {
+        display: flex;
+        text-align: center;
+        margin: 0 auto;
+        padding: 20px 0 0 0;
+    }
+
+    .Apply {
+        float: right;
+        padding: 0 30px;
+        text-decoration: none;
+
+    }
+
+    .job-opp {
+        margin-top: 30px;
+        margin-left: 7px;
+
+    }
+
+    .job-opp h4 {
+        margin: 0;
+        font-family: sans-serif;
+        font-size: 20px;
+        padding-left: 20px;
+
+
+    }
+
+    .job-opp p {
+        margin: 0;
+        font-family: sans-serif;
+        font-size: 12px;
+        color: grey;
+        padding: 4px 0 7px;
+        padding-left: 20px;
+    }
+
+    .mobile-version-job-opp {
+        display: none;
+    }
+
+    form>h3 {
+        text-align: center;
+
+    }
+
+    div.Application-form {
+        display: flex;
+        flex-direction: column;
+        padding: 0 15px 0 15px;
+        width: 500px;
+    }
+
+    .firstname-box,
+    .email-box,
+    .Application-box,
+    .upload-resume {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .first-name,
+    .email,
+    .position-applied,
+    .file-type {
+        width: 150px;
+        border-radius: 5px;
+        padding-top: 7px;
+        border: 2px solid black;
+
+    }
+
+    div.email-box,
+    div.Application-box,
+    button {
+        margin-top: 7px;
+    }
+
+    .cover-letter {
+        display: flex;
+        flex-direction: column;
+        margin-top: 7px;
+        margin-bottom: 4px;
+
+    }
+
+    #text-area {
+        width: 200px;
+        height: 100px;
+    }
+
+    button {
+        width: 100px;
+        height: 20px;
+        border: none;
+        background-color: rgb(239, 173, 91);
+        font-weight: 300;
+        color: white;
+
+    }
+
+    .footer {
+        padding-top: 10px;
+        margin-top: 30px;
+    }
+
+    .footer>ul li {
+        list-style-type: none;
+        font-size: 15px;
+        color: rgb(40, 38, 38);
+        align-items: center;
+        display: flex
+    }
+
+
+
+    ul {
+        margin-top: 0;
+        margin-bottom: 0;
+        text-align: center;
+        display: flex
+    }
+
+    li {
+        margin: 0 auto;
+    }
+
+    .copyright {
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 13px;
+        justify-content: space-between;
+        color: rgb(77, 74, 74);
+        margin-bottom: 0;
+        margin-top: 20px;
+
+    }
+}

@@ -1,5 +1,5 @@
 /* Mobile Devices (mobile phones) */
-@media screen and (min-width:400px) and (max-width: 576px) {
+@media screen and (min-width:340px) and (max-width: 576px) {
     html {
         font-size: 14px;
 
@@ -46,12 +46,12 @@
 
     }
 
-    .banner>img {
+.banner>img {
         width: 350px;
         height: 100px;
         object-fit: cover;
         text-align: center;
-        padding-left: 25px;
+        padding: 0 25px;
 
 
     }
@@ -254,6 +254,12 @@
         justify-content: space-evenly;
         margin: 0;
     }
+
+    .list {
+        text-align: center;
+        color: rgb(17, 152, 243);
+    }
+
 
     .copyright {
         text-align: center;

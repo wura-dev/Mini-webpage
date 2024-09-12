@@ -247,12 +247,10 @@
 
     .footer>ul {
         display: flex;
-
+flex-direction: column;
         list-style: none;
         padding-left: 20px;
-        text-align: left;
-        justify-content: space-evenly;
-        margin: 0;
+        margin: 0 auto;
     }
 
     .list {
